@@ -1,0 +1,3 @@
+# Image assets
+
+The site uses locally stored, optimized WebP photography in this folder. The gallery and other stock images are illustrative only; no project photographs have been supplied, and none of these images represent verified XOA work. Replace them with approved company photography when available, and preserve the gallery's clear distinction between illustrative concepts and verified projects.
