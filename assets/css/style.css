@@ -83,7 +83,7 @@ h2 em { color: var(--forest-soft); font-style: normal; }
 .intro-copy .text-link { margin-top: 6px; }
 
 .overview-band { min-height: 470px; display: grid; grid-template-columns: 1.05fr .95fr; color: var(--white); background: var(--forest); }
-.overview-image { min-height: 470px; background: url("../images/wind-landscape.webp") center 48% / cover no-repeat; }
+.overview-image { min-height: 470px; background: url("../images/xoa-engineering-team.jpg") center 48% / cover no-repeat; }
 .overview-content { align-self: center; max-width: 580px; padding: 72px 10% 72px 11%; }
 .overview-content .eyebrow { margin-bottom: 17px; }
 .overview-content h2, .contact-cta h2, .about-commitment h2, .services-outro h2 { margin-bottom: 19px; font-size: clamp(38px, 4vw, 54px); font-weight: 500; line-height: 1.15; }
