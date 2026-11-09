@@ -1,7 +1,7 @@
 const pages = [
   {
     title: "Home",
-    content: `XOA Solutions Limited is an engineering and energy company focused on practical solutions for a changing world. The company says it was founded in 2007 and works across energy and engineering, bringing research, technical thinking and a commitment to quality into the conversation. Its stated focus includes engineering, energy, innovation, renewable energy and power challenges. The homepage says XOA is committed to supporting sustainable development through its areas of work. The project showcase describes its images as illustrative concepts only and explicitly says they do not represent verified XOA projects.`
+    content: `XOA Solutions Limited is an engineering and energy company focused on practical solutions for a changing world. The company says it was founded in 2007 and works across energy and engineering, bringing research, technical thinking and a commitment to quality into the conversation. Its stated focus includes engineering, energy, innovation, renewable energy and power challenges. The homepage says XOA is committed to supporting sustainable development through its areas of work.`
   },
   {
     title: "About",
@@ -13,7 +13,7 @@ const pages = [
   },
   {
     title: "Projects",
-    content: `The project gallery contains illustrative stock photography and concepts related to solar generation, renewable landscapes, engineering systems and energy infrastructure. The site explicitly states that these are not verified XOA projects and do not claim client work, completed installations, locations, deliverables or performance results. Never present an illustrative concept as a real XOA project.`
+    content: `Published XOA project information includes three examples. Solar street lighting installations (Public Infrastructure): From community roads to public facilities, XOA has supplied and installed street-lighting systems across Abuja, Kano, Kaduna, Borno, Cross River, Lagos and other states. Transformer and grid works (Community Infrastructure): Transformer and rural electrification work help strengthen local infrastructure. This site photo is geotagged to Ikot Osom, Akwa Ibom. Solar systems and mini-grids (Power & Electrification): A 50 kVA solar mini-grid in Gubio, Borno State, is one example of XOA’s work alongside solar power systems for homes and institutions. No project dates, client names, technical specifications, guarantees or performance statistics are published. Project-specific photographs are not currently supplied on the website.`
   },
   {
     title: "Contact",

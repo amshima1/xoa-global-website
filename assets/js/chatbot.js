@@ -310,6 +310,9 @@
     if (/contact|email|telephone|phone|whatsapp|get in touch|reach/.test(text)) {
       return "The Contact page lists email, telephone and WhatsApp details as awaiting confirmation. Its enquiry form is a frontend preview and cannot submit messages until a backend is connected. You can visit the Contact page from the site navigation.";
     }
+    if (/project|street lighting|transformer|mini-grid|electrification|gubio|ikot osom/.test(text)) {
+      return "Published XOA project information includes solar street lighting installations across Abuja, Kano, Kaduna, Borno, Cross River, Lagos and other states; transformer and rural electrification work with a site photo geotagged to Ikot Osom, Akwa Ibom; and a 50 kVA solar mini-grid in Gubio, Borno State, alongside solar power systems for homes and institutions. Project dates, clients, specifications and performance statistics are not published.";
+    }
     if (/solar|photovoltaic|\bpv\b|panel/.test(text)) {
       return "XOA lists solar and photovoltaic energy among its areas of work. The website describes this as an area focused on solutions that respond to changing energy needs; it does not publish specific installations, system specifications or performance results.";
     }
@@ -328,8 +331,8 @@
     if (/quality|assurance|standard|certif|accredit/.test(text)) {
       return "XOA lists quality assurance and standardisation among its service areas and states a commitment to quality. The website does not identify certifications or accreditations.";
     }
-    if (/project|client|achievement|result|statistic|price|cost|budget/.test(text)) {
-      return "The project gallery is explicitly illustrative and does not represent verified XOA projects. The website does not publish client names, project achievements, prices or performance statistics.";
+    if (/client|achievement|result|statistic|price|cost|budget/.test(text)) {
+      return "The website does not publish client names, project dates, additional project specifications, prices or performance statistics.";
     }
 
     return "I'm in demo mode and can answer using information published on this website. Try asking about XOA's background, services, solar and renewable energy, engineering, research and development, quality, or contact options.";

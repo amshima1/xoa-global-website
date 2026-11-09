@@ -121,7 +121,7 @@ test("sends published knowledge and conversation context to the AI provider", as
   assert.equal(response.payload.reply, "XOA was founded in 2007.");
   assert.equal(providerRequest.model, "test-model");
   assert.equal(providerRequest.messages[0].role, "system");
-  assert.match(providerRequest.messages[0].content, /illustrative stock photography/);
+  assert.match(providerRequest.messages[0].content, /50 kVA solar mini-grid in Gubio/);
   assert.match(providerRequest.messages[0].content, /awaiting confirmation/);
   assert.deepEqual(providerRequest.messages.slice(1).map(({ role }) => role), ["user", "assistant", "user"]);
   assert.equal(requestOptions.headers.Authorization, `Bearer ${mockApiKey}`);
@@ -141,7 +141,9 @@ test("knowledge base covers the published pages without inventing confirmed deta
   assert.match(knowledgeBase, /founded in 2007/);
   assert.match(knowledgeBase, /solar and photovoltaic energy/);
   assert.match(knowledgeBase, /quality assurance and standardisation/);
-  assert.match(knowledgeBase, /not verified XOA projects/);
+  assert.match(knowledgeBase, /street-lighting systems across Abuja, Kano, Kaduna, Borno, Cross River, Lagos/);
+  assert.match(knowledgeBase, /geotagged to Ikot Osom, Akwa Ibom/);
+  assert.match(knowledgeBase, /50 kVA solar mini-grid in Gubio, Borno State/);
   assert.match(knowledgeBase, /awaiting confirmation/);
   assert.doesNotMatch(knowledgeBase, /\+?\d[\d ()-]{7,}/);
 });
