@@ -140,7 +140,14 @@ a.project-card:hover { transform: translateY(-3px); border-color: var(--leaf); }
 .contact-cta { min-height: 410px; display: flex; align-items: center; background: url("../images/contact-background.jpg") center 48% / cover no-repeat; }
 .contact-cta::before, .about-commitment::before, .services-outro::before { position: absolute; inset: 0; background: rgba(13, 47, 37, .88); content: ""; }
 .contact-cta__inner, .about-commitment__inner, .services-outro__inner { position: relative; z-index: 1; padding-block: 72px; }
+.contact-cta__inner { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: clamp(40px, 7vw, 92px); }
 .contact-cta h2 { margin-bottom: 26px; font-size: clamp(42px, 5vw, 64px); }
+.contact-cta__trust { padding-left: clamp(28px, 4vw, 52px); border-left: 1px solid rgba(255,255,255,.3); }
+.contact-cta__trust .eyebrow { margin-bottom: 12px; }
+.contact-cta__trust h3 { margin: 0 0 12px; font-size: clamp(25px, 2.7vw, 36px); font-weight: 500; line-height: 1.2; }
+.contact-cta__description { max-width: 570px; margin: 0 0 18px; color: rgba(255,255,255,.76); font-size: 12px; }
+.contact-cta__organisations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; margin: 0; padding: 0; border-top: 1px solid rgba(255,255,255,.24); list-style: none; }
+.contact-cta__organisations li { min-width: 0; padding: 9px 0; border-bottom: 1px solid rgba(255,255,255,.2); color: rgba(255,255,255,.9); font-size: 10px; line-height: 1.45; }
 .cta-index { position: absolute; right: 5%; bottom: 34px; color: rgba(255,255,255,.55); font-size: 10px; letter-spacing: 1.5px; }
 
 .site-footer { color: var(--white); background: #101c17; }
@@ -247,6 +254,10 @@ a.project-card:hover { transform: translateY(-3px); border-color: var(--leaf); }
   .intro-content { gap: 8%; }
   .overview-content { padding-inline: 9%; }
   .why-section { grid-template-columns: .75fr 1.25fr; gap: 6%; }
+  .contact-cta { min-height: 0; }
+  .contact-cta__inner { grid-template-columns: 1fr; gap: 38px; padding-block: 58px 72px; }
+  .contact-cta__trust { padding-left: 0; border-left: 0; }
+  .contact-cta__trust h3 br { display: none; }
   .footer-main { grid-template-columns: 1fr .55fr 1.35fr 38px; gap: 20px; }
   .about-intro { grid-template-columns: .6fr 1.2fr; gap: 7%; }
   .founded-stamp { grid-column: 2; display: flex; align-items: center; gap: 10px; }
@@ -306,7 +317,9 @@ a.project-card:hover { transform: translateY(-3px); border-color: var(--leaf); }
   .why-section { grid-template-columns: 1fr; gap: 30px; padding-block: 76px 83px; }
   .why-item { grid-template-columns: 35px 1fr; padding-block: 18px; }
   .contact-cta { min-height: 350px; background-position: 56% center; }
-  .contact-cta__inner { padding-block: 62px; }
+  .contact-cta__inner { gap: 34px; padding-block: 53px 72px; }
+  .contact-cta__organisations { grid-template-columns: 1fr; }
+  .contact-cta__organisations li { padding-block: 8px; }
   .cta-index { right: 20px; bottom: 20px; }
   .footer-main { grid-template-columns: 1fr 1fr; gap: 32px 18px; padding-block: 48px 38px; }
   .footer-brand-block { grid-column: 1 / -1; }
