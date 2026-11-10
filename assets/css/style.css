@@ -137,7 +137,7 @@ a.project-card:hover { transform: translateY(-3px); border-color: var(--leaf); }
 .why-item p { margin: 0; color: var(--muted); font-size: 12px; }
 
 .contact-cta, .about-commitment, .services-outro { position: relative; overflow: hidden; color: var(--white); background: var(--forest); }
-.contact-cta { min-height: 410px; display: flex; align-items: center; background: url("../images/wind-landscape.webp") center 48% / cover no-repeat; }
+.contact-cta { min-height: 410px; display: flex; align-items: center; background: url("../images/contact-background.webp") center 48% / cover no-repeat; }
 .contact-cta::before, .about-commitment::before, .services-outro::before { position: absolute; inset: 0; background: rgba(13, 47, 37, .88); content: ""; }
 .contact-cta__inner, .about-commitment__inner, .services-outro__inner { position: relative; z-index: 1; padding-block: 72px; }
 .contact-cta h2 { margin-bottom: 26px; font-size: clamp(42px, 5vw, 64px); }
@@ -206,7 +206,7 @@ a.project-card:hover { transform: translateY(-3px); border-color: var(--leaf); }
 .service-detail__copy h2 { margin: 0 0 9px; font-size: 21px; font-weight: 600; }
 .service-detail__copy p { max-width: 680px; margin: 0; color: var(--muted); font-size: 13px; }
 .service-detail__mark { justify-self: end; color: var(--forest-soft); font-size: 27px; }
-.services-outro { background: url("../images/wind-landscape.webp") center 48% / cover no-repeat; }
+.services-outro { background: url("../images/contact-background.webp") center 48% / cover no-repeat; }
 .services-outro__inner { min-height: 400px; }
 
 .portfolio-section { padding-block: 94px 105px; }
