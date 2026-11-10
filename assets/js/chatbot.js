@@ -17,12 +17,12 @@
   widget.className = "xoa-chatbot";
   widget.innerHTML = `
     <button class="chatbot-launcher" type="button" aria-label="Open XOA AI Assistant" aria-expanded="false" aria-controls="xoa-chat-window">
-      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H6l-3 2v-5.3A7.5 7.5 0 1 1 20 11.5Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 11.5h.01M12.5 11.5h.01M16 11.5h.01" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg>
+      <span class="chatbot-launcher-mark" aria-hidden="true">XOA</span>
     </button>
     <section class="chatbot-window" id="xoa-chat-window" role="dialog" aria-modal="false" aria-labelledby="xoa-chat-title" hidden>
       <header class="chatbot-header">
         <div class="chatbot-brand">
-          <span class="chatbot-brand-mark" aria-hidden="true">X</span>
+          <span class="chatbot-brand-mark" aria-hidden="true">XOA</span>
           <div class="chatbot-heading">
             <h2 id="xoa-chat-title">XOA AI Assistant</h2>
             <p>Your intelligent business assistant.</p>
